@@ -27,3 +27,4 @@ if (isset($_SESSION['user']) && !empty($_SESSION['user'])) {
 </div>
 <?php
 include_once('inc/footer.php');
+

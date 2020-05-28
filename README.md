@@ -1,2 +1,2 @@
 # chat-ajax
-Live Coding : Créer un chat en Ajax de A à Z
+chat realisé avec ajax et php
