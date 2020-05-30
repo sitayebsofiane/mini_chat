@@ -16,7 +16,7 @@ if(isset($_POST) && !empty($_POST)){
         require_once('inc/bdd.php');
 
         // On écrit la requête
-        $sql = 'INSERT INTO `users`(`email`, `password`, `pseudo`) VALUES (:email, :password, :pseudo);';
+        $sql = 'INSERT INTO users(email, password, pseudo) VALUES (:email, :password, :pseudo);';
 
         // On prépare la requête
         $query = $db->prepare($sql);
