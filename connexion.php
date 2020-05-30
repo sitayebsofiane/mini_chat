@@ -14,7 +14,7 @@ if(isset($_POST) && !empty($_POST)){
         // On récupère les valeurs saisies
         $mail = strip_tags($_POST['email']);
         $pass = $_POST['pass'];
-
+        echo $mail;
         // On vérifie si l'email existe dans la base de données
         // On se connecte à la base
         require_once('inc/bdd.php');
