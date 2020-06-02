@@ -1,0 +1,1 @@
+POST http://chat-ajax/ajax/ajoutMessage.php

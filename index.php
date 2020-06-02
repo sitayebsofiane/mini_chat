@@ -21,7 +21,7 @@ if (isset($_SESSION['user']) && !empty($_SESSION['user'])) {
     <div class="input-group">
         <input type="text" class="form-control" id="texte" placeholder="Entrez votre texte">
         <div class="input-group-append">
-            <span class="input-group-text" id="valid"><i class="la la-check"></i></span>
+            <span class="input-group-text" id="valide"><i class="la la-check"></i></span>
         </div>
     </div>
 </div>

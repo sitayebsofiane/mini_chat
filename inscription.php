@@ -28,7 +28,7 @@ if(isset($_POST) && !empty($_POST)){
 
         // On exécute la requête
         $query->execute();
-
+        
         // On redirige vers la page d'accueil
         header('Location: index.php');
 
